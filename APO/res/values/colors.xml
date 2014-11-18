@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="appBackgroundColor">#F0F0FF</color>
+    <color name="actionBarColor">#0033AB</color>
+    <color name="navDrawerColor">#E6E6FA</color>
+    <color name="goldColor">#F7B512</color>
+    <color name="lightGrayColor">#DCDCDC</color>
+</resources>

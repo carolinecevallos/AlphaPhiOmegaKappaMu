@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/frag3Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="@string/frag3Text"
+        android:textSize="20sp" />
+
+    <ListView
+        android:id="@+id/frag3List"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@id/frag3Title"
+        android:choiceMode="singleChoice"
+        android:dividerHeight="5dp"
+        android:entries="@array/quizChoices"
+        android:entryValues="@array/quizChoice_Values" >
+    </ListView>
+
+    <ImageView
+        android:id="@+id/quizIcon1"
+        android:layout_width="40dp"
+        android:layout_height="52dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/frag3List"
+        android:src="@drawable/ic_action_next_item"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/quizIcon2"
+        android:layout_width="40dp"
+        android:layout_height="52dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/quizIcon1"
+        android:src="@drawable/ic_action_next_item"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/quizIcon3"
+        android:layout_width="40dp"
+        android:layout_height="52dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/quizIcon2"
+        android:src="@drawable/ic_action_next_item"
+        tools:ignore="ContentDescription" />
+    <ImageView
+        android:id="@+id/quizIcon4"
+        android:layout_width="40dp"
+        android:layout_height="52dp"
+        android:layout_below="@id/quizIcon3"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_action_next_item"
+        tools:ignore="ContentDescription" />
+    <ImageView
+        android:id="@+id/quizIcon5"
+        android:layout_width="40dp"
+        android:layout_height="52dp"
+        android:layout_below="@id/quizIcon4"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_action_next_item"
+        tools:ignore="ContentDescription" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="12dp"
+    android:orientation="vertical" >
+
+    <!--
+    <ProgressBar
+        android:id="@+id/downloadProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@android:style/Widget.ProgressBar.Small"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" /> -->
+
+	<ViewFlipper
+	    android:id="@+id/photo_slideshow"
+	    android:layout_width="match_parent"
+	    android:layout_height="240dp"
+	    android:autoStart="true"
+	    android:flipInterval="3000" >
+
+	    <ImageView
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:src="@drawable/apo_pic_1" />
+	    <ImageView
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:src="@drawable/apo_pic_2" />
+	    <ImageView
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:src="@drawable/apo_pic_3" />
+	    <ImageView
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:src="@drawable/apo_pic_4" />
+	</ViewFlipper>
+    
+	<TextView
+        android:id="@+id/announcementsHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/photo_slideshow"
+        android:gravity="center"
+        android:text="Announcements"
+        android:textSize="30sp"
+        tools:ignore="HardcodedText" />
+	
+    <ListView
+        android:id="@+id/eventsListView"
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:layout_below="@id/announcementsHeader" />
+
+</RelativeLayout>

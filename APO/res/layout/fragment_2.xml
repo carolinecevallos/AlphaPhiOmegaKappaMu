@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/frag2title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/frag2Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <!-- Fellowships -->
+    <CheckBox
+        android:id="@+id/chk1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/frag2title"
+        android:clickable="false"
+        android:text="@string/chk_1" />
+    
+    <SeekBar
+        android:id="@+id/fellowshipSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft = "20dp"
+        android:layout_marginRight="10dp"
+		android:max="12"
+        android:layout_below="@id/chk1" />
+    
+    <TextView
+        android:id="@+id/fellowshipsValueText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_above="@id/fellowshipSeekBar"
+        android:text="0" />
+
+    <!-- Service Hours -->
+    <CheckBox
+        android:id="@+id/chk2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/fellowshipSeekBar"
+        android:clickable="false"
+        android:text="@string/chk_2" />
+
+    <SeekBar 
+        android:id="@+id/serviceHoursSeekBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@id/chk2"
+        android:max="40" />
+    
+    <TextView
+        android:id="@+id/serviceHoursValueText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_above="@id/serviceHoursSeekBar"
+        android:text="0" />
+    
+    <!-- Primary Meetings -->
+    
+    <CheckBox
+        android:id="@+id/chk3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/serviceHoursSeekBar"
+        android:clickable="false"
+        android:text="@string/chk_3" />
+    
+    <SeekBar
+        android:id="@+id/primaryMeetingsSeekBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:max="7"
+        android:layout_below="@id/chk3" />
+    
+    <TextView
+        android:id="@+id/primaryMeetingsValueText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_above="@id/primaryMeetingsSeekBar"
+        android:text="0" />
+    
+    <!-- Secondary Meetings -->
+    
+    <TextView
+        android:id="@+id/secondaryMeetingTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pledge_meeting"
+        android:layout_below="@id/primaryMeetingsSeekBar"
+        android:textSize="18sp" />
+    
+	<CheckBox
+        android:id="@+id/chka"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/secondaryMeetingTitle"
+        android:layout_marginLeft="20dp"
+        android:text="@string/chk_a" />
+	
+	<CheckBox
+        android:id="@+id/chkb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chka"
+        android:layout_marginLeft="20dp"
+        android:clickable="false"
+        android:enabled="false"
+        android:text="@string/chk_b" />
+    
+
+    <!-- Progress Bar -->
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="50dp"
+        android:max="34"
+        android:progress="0" />
+
+    <TextView
+        android:id="@+id/progressText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/progressBar1"
+        android:layout_marginLeft="20dp"
+        android:text="@string/progress"
+        android:textSize="18sp" />
+    
+    <!-- You did it! -->
+    <TextView
+        android:id="@+id/completed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_above="@id/progressText"
+        android:layout_centerHorizontal="true" />
+
+
+
+</RelativeLayout>

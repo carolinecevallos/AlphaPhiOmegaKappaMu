@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Main -->
+    <string name="app_name">Alpha Phi Omega</string>
+    <string name="title_section1">Home</string>
+    <string name="title_section2">Requirements</string>
+    <string name="title_section3">Pledge Quizzes</string>
+    <string name="title_section4">Toast Song</string>
+    <string name="title_section5">Legal Stuff</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="frag1Text">PICTURES!!!</string>
+    <string name="frag2Text">Requirements</string>
+    <string name="frag3Text">Quizzes</string>
+    <string name="frag4Text">\nHere\'s to Alpha Phi Omega,
+							\nLoyal Brothers we,
+							\nTrue to self and to each other
+							\nFirm in loyalty.
+							\nDaily working, daily striving,
+							\nEver more to be,
+							\nMen of Alpha Phi Omega,
+							\nOur Fraternity.
+							\nBrothers clasp the hands of Brothers,
+							\nStrong the circle we,
+							\nEver mindful, ever serving
+							\nAll humanity.
+							\nNow we raise our grateful voices,
+							\nIn our song to thee,
+							\nMen of Alpha Phi Omega,
+							\nMay we always be.</string>
+	<string name="frag5Text">APO App Version 1.0
+	    					\nCopyright 2014
+	    					\nCaroline Cevallos made this
+	    					\nThis app is free because I love APO and I\'m not trying to make money
+	    					\nSo you can\'t sue me for anything this app may or may not do to your phone
+	    					\nIf you believe this app has wronged you, contact me and I will make you question your life choices
+	    					\nBut like actually, come talk to me
+	    					\nI like making friends
+	    					\nAnd APO friends are the best kinds of friends
+	    					\nAlso if you don\'t like the app, tell me how I can improve it
+	    					\nBut be nice because I spent a lot of time making it
+	    					\nMostly because I am new to Android
+	    					\nAlso sorry there\'s no iPhone version
+	    					\nBut that would require me to have a Mac to do
+	    					\nAnd iPhone is harder than Android
+	    					\nAlso I don\'t know why it doesn\'t work on certain phones
+	    					\nSorry if it doesn\'t work, but I hope you can enjoy the app!</string>
+	    					
+    <!-- Settings -->
+    <string name="title_activity_settings">Settings</string>
+    <string name="pledgeQuest">Pledge or Brother?</string>
+    <string name="pledgeQuestTitle">Membership Status</string>
+    
+    <!-- Requirements -->
+    <string name="progress">Progress</string>
+    <string name="brother_meeting">Brother Meetings</string>
+    <string name="pledge_meeting">Pledge Meetings (1)</string>
+    <string name="completion_text">You did it!</string>
+    <string name="chk_0">Officially Pledge APO</string>
+    <string name="chk_1">Fellowships (6)</string>
+    <string name="chk_2">Service Hours (20)</string>
+    <string name="chk_a">1</string>
+    <string name="chk_b">2</string>
+    <string name="chk_3">Brother Meetings (7)</string>
+
+    <!-- Quizzes -->
+    <string name="title_activity_greek_letters">Greek Alphabet</string>
+    <string name="next">Next</string>
+    <string name="title_activity_greek_letters_quiz">GreekLettersQuiz</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_quiz_result">QuizResultActivity</string>
+    <string name="title_activity_toast_song">ToastSongActivity</string>
+    <string name="title_activity_toast_song_learn">ToastSongLearn</string>
+    <string name="title_activity_toast_song_quiz">ToastSongQuiz</string>
+
+    <!-- Toast Song Quiz Lyrics -->
+    <string name="line1">\nHere\'s to ___ ___ ___, -</string>
+    <string name="line2">\nLoyal ___ we, - - - - - - -</string>
+    <string name="line3">\nTrue to ___ - - - - - - - - -</string>
+    <string name="line4">\nAnd to ___ ___, - - - - - -</string>
+    <string name="line5">\nFirm in ___. - - - - - - - - -</string>
+    <string name="line6">\nDaily ___, - - - - - - - - - -</string>
+    <string name="line7">\nDaily ___, - - - - - - - - - -</string>
+    <string name="line8">\nEver ___ to be, - - - - - -</string>
+    <string name="line9">\n__ of Alpha Phi Omega,</string>
+    <string name="line10">\nOur ___. - - - - - - - - - - -</string>
+    <string name="line11">\n___ clasp the - - - - - - -</string>
+    <string name="line12">\n___ of brothers, - - - - -</string>
+    <string name="line13">\nStrong the ___ we, - - - -</string>
+    <string name="line14">\nEver ___, - - - - - - - - - -</string>
+    <string name="line15">\nEver ___ - - - - - - - - - - -</string>
+    <string name="line16">\nAll ___. - - - - - - - - - - - -</string>
+    <string name="line17">\nNow we ___ - - - - - - - -</string>
+    <string name="line18">\nOur grateful ___, - - - - </string>
+    <string name="line19">\nIn our ___ to thee, - - - </string>
+    <string name="line20">\nMen of ___ ___ ___, - - - </string>
+    <string name="line21">\nMay we ___ be. - - - - - -</string>
+    
+    <string name="title_activity_apohistory_learn">APO History Learn</string>
+    <string name="title_activity_apohistory">APO History Activity</string>
+    <string name="title_activity_apohistory_quiz">APO History Quiz</string>
+    <string name="title_activity_simple_quiz">Simple Quiz</string>
+    <string name="title_activity_kappa_mu">Kappa Mu Activity</string>
+    <string name="title_activity_kappa_mu_learn">Kappa Mu Learn</string>
+    <string name="title_activity_kappa_mu_quiz">Kappa Mu Quiz</string>
+    <string name="title_activity_board_members">Board Members Activity</string>
+    <string name="title_activity_board_members_learn">Board Members Learn</string>
+    <string name="title_activity_board_members_quiz">Board Members Quiz</string>
+    
+    <string name="title_activity_internet">Internet Activity</string>
+    <string name="title_activity_pseudo_internet">Pseudo Internet Activity</string>
+    <string name="connection_error">Error connecting</string>
+    <string name="xml_error">Error reading xml</string>
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+
+</resources>

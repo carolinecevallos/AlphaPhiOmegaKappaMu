@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="isPledge">
+        <item name="1">Pledge</item>
+        <item name="2">Brother</item>
+    </string-array>
+    <string-array name="isPledge_values">
+        <item name="1">1</item>
+        <item name="2">2</item>
+    </string-array>
+    
+    <string-array name="quizSize">
+        <item name="1">5</item>
+        <item name="2">10</item>
+        <item name="3">15</item>
+        <item name="4">All</item>
+    </string-array>
+    <string-array name="quizSize_Values">
+        <item name="1">1</item>
+        <item name="2">2</item>
+        <item name="3">3</item>
+        <item name="4">4</item>
+    </string-array>
+    
+    <string-array name="quizChoices">
+        <item name="Toast">Toast Song Lyrics</item>
+        <item name="Greek">Greek Alphabet</item>
+        <item name="Board">Current Board Members</item>
+        <item name="APOHistory">APO History</item>
+        <item name="KMHistory">Kappa Mu History</item>
+    </string-array>
+    <string-array name="quizChoice_Values">
+        <item name="Toast">1</item>
+        <item name="Greek">2</item>
+        <item name="Board">3</item>
+        <item name="APOHistory">4</item>
+        <item name="KMHistory">5</item>
+    </string-array>
+    
+    <string-array name="menuSelections">
+        <item name="Learn">Learn</item>
+        <item name="Quiz">Quiz</item>
+    </string-array>
+    <string-array name="menuSelection_Values">
+        <item name="Learn">1</item>
+        <item name="Quiz">2</item>
+    </string-array>
+    
+    <string-array name="toastQuizText">
+        <item name="line1">Here\'s to ___ ___ ___, -</item>
+        <item name="line2">Loyal ___ we, - - - - - - -</item>
+        <item name="line3">True to ___ - - - - - - - - -</item>
+        <item name="line4">And to ___ ___, - - - - - -</item>
+        <item name="line5">Firm in ___. - - - - - - - - -</item>
+        <item name="line6">Daily ___, - - - - - - - - - -</item>
+        <item name="line7">Daily ___, - - - - - - - - - -</item>
+        <item name="line8">Ever ___ to be, - - - - - -</item>
+        <item name="line9">__ of Alpha Phi Omega,</item>
+        <item name="line10">Our ___. - - - - - - - - - - -</item>
+        <item name="line11">___ clasp the - - - - - - -</item>
+        <item name="line12">___ of brothers, - - - - -</item>
+        <item name="line13">Strong the ___ we, - - - -</item>
+        <item name="line14">Ever ___, - - - - - - - - - -</item>
+        <item name="line15">Ever ___ - - - - - - - - - - -</item>
+        <item name="line16">All ___. - - - - - - - - - - - -</item>
+        <item name="line17">Now we ___ - - - - - - - -</item>
+        <item name="line18">Our grateful ___, - - - - </item>
+        <item name="line19">In our ___ to thee, - - - </item>
+        <item name="line20">Men of ___ ___ ___, - - - </item>
+        <item name="line21">May we ___ be. - - - - - -</item>
+    </string-array>
+    <string-array name="toastQuizText_Values">
+        <item name="line1">1</item>
+        <item name="line2">2</item>
+        <item name="line3">3</item>
+        <item name="line4">4</item>
+        <item name="line5">5</item>
+        <item name="line6">6</item>
+        <item name="line7">7</item>
+        <item name="line8">8</item>
+        <item name="line9">9</item>
+        <item name="line10">10</item>
+        <item name="line11">11</item>
+        <item name="line12">12</item>
+        <item name="line13">13</item>
+        <item name="line14">14</item>
+        <item name="line15">15</item>
+        <item name="line16">16</item>
+        <item name="line17">17</item>
+        <item name="line18">18</item>
+        <item name="line19">19</item>
+        <item name="line20">20</item>
+        <item name="line21">21</item>
+    </string-array>
+    
+</resources>

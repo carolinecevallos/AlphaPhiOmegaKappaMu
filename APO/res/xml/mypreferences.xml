@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:title="@string/pledgeQuestTitle" >
+	    <ListPreference
+	    	android:entries="@array/isPledge"
+		    android:entryValues="@array/isPledge_values"
+		    android:key="settings_isPledge"
+	    	android:title="@string/pledgeQuest"
+	    	android:summary="Tap to change" />
+	</PreferenceCategory>
+	<PreferenceCategory android:title="Quiz Length" >
+	    <ListPreference
+	        android:entries="@array/quizSize"
+	        android:entryValues="@array/quizSize_Values"
+	        android:key="settings_quizSize"
+	        android:title="Number of Questions on Quiz"
+	        android:summary="Tap to change" />
+	</PreferenceCategory>
+	<PreferenceCategory android:title="About" >
+	    <EditTextPreference
+	        android:key="user_name"
+	        android:title="Name"
+	        android:summary="Set name" />
+	    <EditTextPreference
+	        android:key="user_major"
+	        android:title="Major"
+	        android:summary="Set major" />
+	    <EditTextPreference
+	        android:key="user_hometown"
+	        android:title="Hometown"
+	        android:summary="Set hometown" />
+	    <EditTextPreference
+	        android:key="user_email"
+	        android:title="Email"
+	        android:summary="Set email address" />
+	    <EditTextPreference
+	        android:key="user_class"
+	        android:title="Class"
+	        android:summary="Set graduation year" />
+	    <EditTextPreference
+	        android:key="user_family"
+	        android:title="Family"
+	        android:summary="Set APO family" />
+	    <EditTextPreference
+	        android:key="user_pledge_class"
+	        android:title="Pledge class"
+	        android:summary="Set pledge class Greek name" />
+	   <EditTextPreference
+	        android:key="user_pledge_name"
+	        android:title="Pledge name"
+	        android:summary="Set pledge name if brother" />
+	</PreferenceCategory>
+</PreferenceScreen>

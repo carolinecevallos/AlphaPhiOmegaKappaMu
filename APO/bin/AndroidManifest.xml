@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.apo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.apo.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Settings"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.apo.MainActivity" />
+        </activity>
+        <activity
+            android:name=".GreekLettersActivity"
+            android:label="@string/title_activity_greek_letters"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.apo.MainActivity" />
+        </activity>
+        <activity
+            android:name=".GreekLettersLearn"
+            android:label="@string/title_activity_greek_letters"
+            android:parentActivityName=".GreekLettersActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.apo.GreekLettersActivity" />
+        </activity>
+        <activity
+            android:name=".GreekLettersQuiz"
+            android:label="@string/title_activity_greek_letters_quiz"
+            android:parentActivityName=".GreekLettersActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.apo.GreekLettersActivity" />
+        </activity>
+        <activity
+            android:name=".QuizResultActivity"
+            android:label="@string/title_activity_quiz_result"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.apo.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ToastSongActivity"
+            android:label="@string/title_activity_toast_song"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.apo.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ToastSongLearn"
+            android:label="@string/title_activity_toast_song_learn"
+            android:parentActivityName=".ToastSongActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.apo.ToastSongActivity" />
+        </activity>
+        <activity
+            android:name=".ToastSongQuiz"
+            android:label="@string/title_activity_toast_song_quiz"
+            android:parentActivityName=".ToastSongActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.apo.ToastSongActivity" />
+        </activity>
+        <activity
+            android:name=".APOHistoryLearn"
+            android:label="@string/title_activity_apohistory_learn"
+            android:parentActivityName=".APOHistoryActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.apo.APOHistoryActivity" />
+        </activity>
+        <activity
+            android:name=".APOHistoryActivity"
+            android:label="@string/title_activity_apohistory"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.apo.MainActivity" />
+        </activity>
+        <activity
+            android:name=".APOHistoryQuiz"
+            android:label="@string/title_activity_apohistory_quiz"
+            android:parentActivityName=".APOHistoryActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="APOHistoryActivity" />
+        </activity>
+        <activity
+            android:name=".SimpleQuiz"
+            android:label="@string/title_activity_simple_quiz"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.apo.MainActivity" />
+        </activity>
+        <activity
+            android:name=".KappaMuActivity"
+            android:label="@string/title_activity_kappa_mu"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.apo.MainActivity" />
+        </activity>
+        <activity
+            android:name=".KappaMuLearn"
+            android:label="@string/title_activity_kappa_mu_learn"
+            android:parentActivityName=".KappaMuActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.apo.KappaMuActivity" />
+        </activity>
+        <activity
+            android:name=".KappaMuQuiz"
+            android:label="@string/title_activity_kappa_mu_quiz"
+            android:parentActivityName=".KappaMuActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.apo.KappaMuActivity" />
+        </activity>
+        <activity
+            android:name=".BoardMembersActivity"
+            android:label="@string/title_activity_board_members"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.apo.MainActivity" />
+        </activity>
+        <activity
+            android:name=".BoardMembersLearn"
+            android:label="@string/title_activity_board_members_learn"
+            android:parentActivityName=".BoardMembersActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.apo.BoardMembersActivity" />
+        </activity>
+        <activity
+            android:name=".BoardMembersQuiz"
+            android:label="@string/title_activity_board_members_quiz"
+            android:parentActivityName=".BoardMembersActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.apo.BoardMembersActivity" />
+        </activity>
+        <activity
+            android:name=".InternetActivity"
+            android:label="@string/title_activity_internet" >
+        </activity>
+        <activity
+            android:name=".SplashScreenActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" >
+            <intent-filter android:label="@string/app_name">
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.dropbox.sync.android.DbxAuthActivity"/>
+        <activity
+            android:name="com.dropbox.client2.android.AuthActivity"
+            android:launchMode="singleTask" >
+            <intent-filter>
+                <data android:scheme="db-wdx2e9xp5723qzb" />
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <service
+            android:name="com.dropbox.sync.android.DbxSyncService"
+            android:enabled="true"
+            android:exported="false"
+            android:label="Dropbox Sync" />
+    </application>
+
+</manifest>
